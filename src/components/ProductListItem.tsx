@@ -31,9 +31,15 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     padding: 10,
     borderRadius: 10,
+    flex: 1,
+    margin: 5,
   },
 
-  title: { fontSize: 18, fontWeight: "600", marginVertical: 10 },
+  title: {
+    fontSize: 18,
+    fontWeight: "600",
+    marginVertical: 10,
+  },
 
   price: {
     color: Colors.light.tint,
