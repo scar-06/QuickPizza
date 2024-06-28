@@ -8,7 +8,7 @@ import Button from "../components/Button";
 const CartScreen = () => {
   const { items, total } = useCart();
   return (
-    <View style={{ padding: 10 }}>
+    <View style={{ padding: 15 }}>
       <FlatList
         data={items}
         renderItem={({ item }) => <CartListItem cartItem={item} />}
